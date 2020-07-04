@@ -1,0 +1,114 @@
+.ServicesPage
+{
+    position: relative;
+    width:100%;
+    height:1380px;
+}
+
+.ServicesPage_Sec
+{
+padding:100px 0px;
+}
+.Services_Section_1_Div1
+{
+    position: absolute;
+    top:130px;
+    left:400px;    
+    text-align:center;
+}
+.Services_Section_1_Div1 span
+{
+    font-size:24px;
+    font-weight: 400;    
+}
+.Services_Section_1_Div1 h1
+{
+    font-size:50px;
+    font-weight: 400;
+}
+
+.Services_Section_1_Div2
+{
+    position: relative;
+    top:200px; 
+}
+
+.Scard
+{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cardChild
+{
+    text-align: center;
+    width:250px;
+    height:280px;
+    border:2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4%;
+    padding:30px 20px;
+}
+
+.cardChild i
+{
+    color:blue;
+    margin-bottom:30px;
+}
+
+.cardChild h1
+{
+    margin-bottom:30px;
+    font-size:24px;
+    font-weight: 500;
+}
+
+.cardChild div
+{
+    color: rgba(0, 0, 0, 0.6);
+ }
+
+ .Services_Section_1_Div3
+ {
+     position: relative;
+     top:300px;
+     background-image: url("/About/01.jpg");
+     background-size: cover;
+     width:100%;
+     height:700px;
+     color:white;
+     z-index:1;
+ }
+
+ .Services_Section_1_Div3:before
+ {
+     content: "";
+     position: absolute;
+     left: 0px;
+     width:100%;
+     height:100%;
+     background-color: rgba(0, 0, 0, 0.8);
+     z-index: -1;
+}
+
+.Services_Section_1_Div3_1
+{
+    position: absolute;
+    left:500px;
+    top:200px;
+    text-align: center;
+    width:400px;
+    height:300px;
+}
+
+.Services_Section_1_Div3_1 div
+{
+    padding:30px 0px;
+    font-size: 40px;
+}
+
+.Services_Section_1_Div3_1 span
+{
+    font-size: 22px;
+    font-weight: 200px;
+}

@@ -1,0 +1,82 @@
+header
+{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height:40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+    padding: 10px 50px;
+    position: fixed;
+    border-bottom: 1px solid gainsboro;
+    z-index: 100;
+}
+
+header ul li i
+{
+    padding:0px 20px;
+}
+
+header ul , header div
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacticon a i
+{
+    padding:0px 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.CI-Search
+{
+    margin-left:20px;
+}
+
+@media (max-width: 1000px)
+{
+    header
+    {
+        padding: 10px 30px;
+    }
+    header ul li span
+    {
+        font-size:10px;
+    }
+    .CI-Search
+    {
+        margin-left:10px;
+    }
+}
+
+@media (max-width: 800px)
+{
+    header
+    {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+    header ul li i , .contacticon a i
+    {
+        padding:0px 10px;
+    }
+}
+
+@media (max-width: 600px)
+{
+    header
+    {
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+    header ul li span
+    {
+        display: none;
+    }
+    header ul li i , .contacticon a i
+    {
+        padding:0px 10px;
+    }
+}

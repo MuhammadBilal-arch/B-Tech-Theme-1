@@ -1,0 +1,11 @@
+.Aside_Section
+{
+    position: fixed;
+    /* top: calc(50%-100px); */
+    top:150px;
+    right:0;
+    height:200px;
+    width:50px;
+    background-color: aqua;
+    z-index:10;
+}

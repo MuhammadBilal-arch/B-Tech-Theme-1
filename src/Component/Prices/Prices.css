@@ -1,0 +1,94 @@
+.PricePage
+{
+    width:100%;
+    height:900px;
+}
+
+.PricePage .PricePage_ul
+{
+    display: flex;
+    justify-content: space-around;
+    padding:120px 0px;
+}
+
+.PricePage .PricePage_ul li
+{
+    width:400px;
+    height:700px;
+    border-radius: 2%;
+}
+
+.PricePage .PricePage_ul li:nth-child(2) 
+{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.PricePage .PricePage_ul li:nth-child(3) 
+{
+    border: 2px solid blue;
+}
+
+.PricePage_Li_1
+{
+    padding:100px 80px 100px 0px;
+}
+
+.PricePage_Li_1 h1
+{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.PricePage_Li_1 p
+{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+}
+
+.PcardChild Button
+{
+    margin-top:40px;
+    outline: none;
+    width:170px;
+    height:53px;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 4%;
+}
+.PcardChild
+{
+    padding:50px 50px;
+}
+
+.PcardChild h2
+{
+    font-weight: 800;
+    line-height: 40px;
+}
+
+.PcardChild h1
+{
+    color:blue;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 100px;
+}
+
+.PcardChild p
+{
+    color:rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    padding-bottom:25px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+}
+
+.PcardChild div
+{
+    padding:10px 0px;
+    color:rgba(0, 0, 0, 0.8);
+    font-weight: 600;
+    font-size: 17px;
+}

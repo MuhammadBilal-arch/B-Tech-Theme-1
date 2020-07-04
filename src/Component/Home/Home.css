@@ -1,0 +1,81 @@
+.HomePage
+{
+    widows: 100%;
+    height:700px;
+    background-image: url("/Home/Bg-img.png");
+    background-size: cover;
+    position: relative;
+}
+
+.HomePage .HomePageDiv1
+{
+    text-align: center;
+    position: absolute;
+    left: 20%;
+    top:30%;
+    color: white;
+    animation: BlinkingText 5s; 
+}
+
+@keyframes BlinkingText
+{
+    from
+    {
+        color:transparent;
+    }
+    To
+    {
+        color:white;
+    }
+}
+
+.HomePageDiv1 span
+{
+    font-weight: bold;
+    font-size:30px;
+}
+.HomePageDiv1 p
+{
+    font-weight: lighter;
+    font-size: 75px;
+}
+.HomePageDiv2
+{
+    display:flex;
+    justify-content: space-around;
+    padding:10px 0px;
+ }
+
+.HcardDiv
+{
+    margin:0 auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:80px;
+    height:80px;
+    border:4px solid rebeccapurple; 
+    border-radius:10%;
+    margin-bottom:10px;
+}
+.Hcard
+{
+    animation: MoveCard 5s;
+    padding:20px 0px;
+    width:200px;
+    height:220px;
+    /* background-color:rgba(0, 0, 0, 0.5); */
+    color:white;
+}
+
+@keyframes MoveCard
+{
+    from
+    {
+        padding-top:80px
+    }
+    To
+    {
+        padding-top:-80px
+    }
+}
