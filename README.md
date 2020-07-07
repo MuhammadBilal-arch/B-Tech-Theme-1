@@ -1,5 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Heroku [B-Tech-Theme-1]
+Runs the app in the development mode.<br />
+Open [https://b-tech-theme-1.herokuapp.com/](https://b-tech-theme-1.herokuapp.com/) to view it in the browser.
+
+## Available Scripts
+
+In the project directory, you can run:
+
+## Setup in VS Code
+
 ## Available Scripts
 
 In the project directory, you can run:
